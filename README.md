@@ -6,3 +6,27 @@ Following the data cleansing, the project progressed to exploratory data analysi
 
 Advanced Insights:
 The project further delved into advanced insights by comparing sales percentages between Retail and Shopify platforms on a monthly basis, revealing which platform was dominant during specific periods. An analysis of demographic contributions provided a deeper understanding of how different customer segments impacted yearly sales. Furthermore, the project identified which age bands and demographics contributed most significantly to Retail sales, offering valuable information for refining marketing strategies.
+
+This project involves creating a data mart to analyze and explore weekly sales data across multiple years. The goal is to transform raw sales data into actionable insights by applying data cleansing and transformation techniques.
+
+Key Features:
+
+Data Cleansing: The project starts by cleaning the raw sales data. This includes adding week numbers, month numbers, and calendar years to each week's data. It also involves mapping segment values to age bands and demographics, handling null values, and calculating average transaction values.
+
+Data Transformation: The cleaned data is then transformed into a structured format suitable for analysis. This includes creating new columns for age bands and demographics based on existing segment data.
+
+Data Exploration: The transformed data is used to explore various aspects of sales trends. This includes identifying missing week numbers, calculating total transactions by year, analyzing sales by region and month, and determining transaction counts by platform.
+
+Sales Analysis: The project provides insights into sales percentages by platform (Retail vs Shopify) for each month and by demographic for each year. It also identifies which age bands and demographics contribute most to Retail sales.
+
+Tools and Technologies:
+
+SQL: Used for data cleansing, transformation, and exploration.
+
+Data Mart: The final structured dataset is stored in a data mart for easy querying and analysis.
+
+Outputs:
+
+Cleaned and Transformed Data: A new table named clean_weekly_sales containing the transformed data.
+
+Insights and Trends: Various SQL queries provide insights into sales trends, customer demographics, and platform performance.
